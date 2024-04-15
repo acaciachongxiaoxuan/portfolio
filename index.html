@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chong Xiao Xuan</title>
+  <link rel="icon" type="image/x-icon" href="assets/xLogo_wb.png">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- styles -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.cdnfonts.com/css/soleil" rel="stylesheet">
+  <link href="https://fonts.cdnfonts.com/css/nunito" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- linking css file -->
+  <link rel="stylesheet" href="css\style.css">
+  <link href=' http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+  <link href="swiper/css">
+
+    <!-- load javascript after loading all html content -->
+    <script defer type="text/javascript" src="script\main.js"></script>
+</head>
+
+<body>
+    <!--NAV-->
+    <div class="topnav" id="myTopnav">
+        <img src="assets\xLogo_nb.png" id="logo">
+        <ul>
+            <li><a href="#home" id="anav">
+                Home</a></li>
+            <li><a href="#about" id="anav">
+               About</a></li>
+            <li><a href="#skills" id="anav">
+                Skills</a></li>
+            <li><a href="#portfolio" id="anav">
+               Portfolio</a></li>
+            <li><a href="#contact" id="anav">
+               Contact</a></li>
+          </ul>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+
+    </div>
+
+
+    <section class="container-header" id="home">
+        <div class="headerElement-1">
+          <p class="headerTitle" id="headerTitle"> </p>
+            <p id="headerSubtitle">
+                I am an aspiring UI/UX designer 
+                <br>
+                & frontend developer.
+            </p>
+
+          <a href="insert cv link here"><button id="resumeButton"> Download Resume </button></a>
+        </div>
+        <div class="headerElement-2"><img src="assets/myPhoto.png" id="myPhoto"></div>
+    </section >
+
+    <!--about-->
+    <section class="container-about" id="about">
+      <p class="aboutTitle" id="aboutTitle">ABOUT ME</p>
+      <div class="content">
+          <div class="vl"></div>
+          <p id="aboutSubtitle">
+              I am currently a penultimate student at the <span style="color:#ff9720">National University of Singapore</span>.
+              <br>I major in Geography and minor in <span style="color:#00d0bd">Interactive Media Development</span>, an inter-disciplinary 
+              <br>minor between Computer Science and Communications & New Media. 
+              <br><br>
+              My areas of interest include UI and UX design, frontend web development, as well as sustainability.
+            
+          </p>
+      </div>
+    </section>
+
+    <!-- Design Skills -->
+    <section class="container-skills" id="skills">
+      <h2 class="skillsTitle" id="skillsTitle">MY SKILLS</h2>
+      <div class="skills-grid">
+          <div class="skill-header">Design</div>
+          <div class="skill-header">Prototyping</div>
+          <div class="skill-header">Web Development</div>
+
+          <div class="skill-item">
+              <img src="assets/illustrator.png" class="skillicon">
+              <p class="text-w-img">Illustrator</p>
+          </div>
+          <div class="skill-item">
+              <img src="assets/figma.png" class="skillicon">
+              <p class="text-w-img">Figma</p>
+          </div>
+          <div class="skill-item">
+              <img src="assets/js.png" class="skillicon">
+              <p class="text-w-img">JavaScript</p>
+          </div>
+  
+          <!-- More Design Skills -->
+          <div class="skill-item">
+              <img src="assets/photoshop.png" class="skillicon">
+              <p class="text-w-img">Photoshop</p>
+          </div>
+          <div class="skill-item">
+              <img src="assets/balsamiq.png" class="skillicon">
+              <p class="text-w-img">Balsamiq</p>
+          </div>
+          <div class="skill-item">
+              <img src="assets/html-5.png" class="skillicon">
+              <p class="text-w-img">HTML</p>
+          </div>
+  
+          <!-- And so on for each skill -->
+          <div class="skill-item">
+              <img src="assets/indesign.png" class="skillicon">
+              <p class="text-w-img">InDesign</p>
+          </div>
+          <!-- Placeholder if necessary for alignment -->
+          <div class="skill-item"></div>
+          <div class="skill-item">
+              <img src="assets/css-3.png" class="skillicon">
+              <p class="text-w-img">CSS</p>
+          </div>
+      </div>
+  </section>
+
+<p><hr style="border-top: 1px solid #1c3e4b; width:90%" ></p>
+
+  <!--portfolio-->
+  <section class="container-portfolio" id="portfolio">
+  
+        <h2 class="portfolioTitle" id="portfolioTitle">PROJECTS</h2>
+    
+    <div class="portfolioContent">
+      <div class="container-portfolioContent"> 
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                  <!-- Slides -->
+                  <div class="swiper-slide">
+                    <div>
+                        <a href="https://sites.google.com/view/homecooking-co"><img src="assets/homecookingicon.png" style="padding: 0px 20px 20px 0px; "></a>
+                    </div>
+                    <div class="portfolioDescription">
+                        <h3 class="portfolioSubtitle"> HomeCooking App</h3>
+                        <p class="portfolioText">
+                            &#x2022; &nbsp; A mobile app to improve cooking experience in and out of the kitchen.
+                            <br><br>  &#x2022; &nbsp; Group project under <a href="https://nusmods.com/courses/CS3240/interaction-design">CS3240</a> course in NUS.
+                            <br><br>  &#x2022; &nbsp; Prototyping on Balsamiq and Figma, user evaluation conducted.
+                            <br> <a href="https://sites.google.com/view/homecooking-co"><button id="portfolioButton"> <b>View Project</b> </button></a>
+                        </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <a href="https://drive.google.com/file/d/1BRqZoDlOTEx1L52lJMzppQwKmpdnnNTz/view?usp=sharing"><img src="assets/darkgreenlogo.png" style="padding: 0px 20px 20px 0px; "></a>
+                    </div>
+                    <div class="portfolioDescription">
+                        <h3 class="portfolioSubtitle"> bud App</h3>
+                        <p class="portfolioText">
+                            &#x2022; &nbsp; A mobile app to that helps users manage their garden.
+                            <br><br>  &#x2022; &nbsp; Individual project under <a href="https://nusmods.com/courses/CS3240/interaction-design">CS3240</a> course in NUS.
+                            <br><br>  &#x2022; &nbsp; Prototyping on Balsamiq and Figma.
+                            <br> <a href="https://drive.google.com/file/d/1BRqZoDlOTEx1L52lJMzppQwKmpdnnNTz/view?usp=sharing"><button id="portfolioButton"> <b>View Project</b> </button></a>
+                        </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <a href="https://tinyurl.com/nm2207fp"></a>
+                    </div>
+                    <div class="portfolioDescription">
+                        <h3 class="portfolioSubtitle"> Sustainable Consumption Datastory Website</h3>
+                        <p class="portfolioText">
+                            &#x2022; &nbsp; A website to educate Singaporeans on sustainable consumption of goods.
+                            <br><br>  &#x2022; &nbsp; Individual project under <a href="https://nusmods.com/courses/NM2207/computational-media-literacy">NM2207</a> course in NUS.
+                            <br><br>  &#x2022; &nbsp; Created with JavaScript, HMTL, and CSS.
+                            <br> <a href="https://tinyurl.com/nm2207fp"><button id="portfolioButton"> <b>View Project</b> </button></a>
+                        </p>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div>
+                        <a href="assets\FP_BrandStyleGuide_W4_e0773988_ChongXiaoXuan.pdf"><img src="assets\xLogo_wb.png" style="padding: 0px 50px 50px 0px; "></a>
+                    </div>
+                    <div class="portfolioDescription">
+                        <h3 class="portfolioSubtitle">Personal Brand Style Guide</h3>
+                        <p class="portfolioText">
+                            &#x2022; &nbsp; A guide to my personal brand style.
+                            <br><br>  &#x2022; &nbsp; Individual project under <a href="https://nusmods.com/courses/NM3217/principles-of-visual-communication-design">NM3217</a> course in NUS.
+                            <br><br>  &#x2022; &nbsp; Created with Adobe Illustrator, Photoshop, and InDesign.
+                            <br> <a href="assets\FP_BrandStyleGuide_W4_e0773988_ChongXiaoXuan.pdf"><button id="portfolioButton"> <b>View Project</b> </button></a>
+                        </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+      </div>
+  </section>
+
+
+<!-- Contact -->
+<section class="container-contact" id="contact">
+    <p class="contactTitle">CONTACT ME</p>
+    <div class="contactContent">
+        <a href="www.linkedin.com/in/chongxiaoxuan"><img src="assets/connection.png" class="contactIcon"></a>
+        <a href="mailto:xuan.chongcx@gmail.com"><img src="assets/email.png" class="contactIcon"></a>
+
+    </div>
+</section>
+    
+</body>
