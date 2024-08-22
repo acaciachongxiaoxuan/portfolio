@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "My Custom Font";
+    src: url(myfont.woff2) format("woff2");
+    src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@import url('https://fonts.cdnfonts.com/css/soleil');
+@import url('https://fonts.cdnfonts.com/css/nunito');
+
+html, body {
+  height:100%;
+  width:100%;
+  background-color: rgb(250,250,250);
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  }
+
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+    #nav {
+        background: #1c3e4b;
+        color: #ffffff;
+        font-size: 30px;
+        margin: 0px
+    }
+
+    .navbar-brand {
+        background: #1c3e4b;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight:500;
+        margin: 0px;
+       
+    }
+
+    .navbar-nav {
+        align-items: center;
+        background: #1c3e4b;
+        color: #ffffff;
+        font-size: 14px;
+        margin: 0px;
+        font-family: 'Nunito', sans-serif;
+        
+    }
+
+    #body{
+        padding-top: 10px;
+    }
+
+    /*hero header*/
+    /* hero background image */
+    .bgimage {
+        height:100%;
+        background: #1c3e4b;
+        background-size:cover;
+        position:relative;
+    }
+    
+    #myPhoto{
+        max-width: 60vw;
+        max-height: 60vh;
+    }
+    
+    .container-header{
+        display: flex;
+        justify-content: space-evenly center;
+        padding: 10%
+    }
+
+    #header  {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    
+    #headerTitle {
+        text-align: start;
+        color: rgb(255, 255, 255);
+        font-size: 2.5rem;
+        font-weight: bold;
+        font-family: 'Soleil', sans-serif;
+      }
+
+      #headerSubtitle {
+        box-align: left;
+        color: rgb(255, 255, 255);
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 0px;
+        font-family: 'Nunito', sans-serif;
+      }
+      
