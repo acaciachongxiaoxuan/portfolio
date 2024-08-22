@@ -13,6 +13,7 @@
 body,html {
     margin: 0;
     font: bold 12px/1.4 'Soleil', sans-serif;
+    scroll-behavior: smooth;
   }
 
 .topnav{
